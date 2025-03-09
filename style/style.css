@@ -1,7 +1,7 @@
 .header {
 display: flex;
 justify-content: center;
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #717A86;
 font-weight: 600;
 color: #717A86;
 gap: 85px;
@@ -14,13 +14,19 @@ padding: 25px 315px;
   list-style-type: none;
 }
 
-.header__icons {
+.header__menu-link{
+  text-decoration: none;
+  line-height: 0;
+}
+
+.header-icons {
 display: flex;
 align-items: center;
 gap: 25px;
 }
 
-.header__icon {
+.header-icons__icon {
   text-decoration: none;
 }
 
+/*about-information*/
