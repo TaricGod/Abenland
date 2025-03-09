@@ -14,14 +14,26 @@ padding: 25px 315px;
   list-style-type: none;
 }
 
+<<<<<<< HEAD
 .header__menu-link{
   text-decoration: none;
   line-height: 0;
 }
 
 .header-icons {
+=======
+.header__menu-item{
+  align-content: center;
+
+}
+
+.header__menu-link{
+  text-decoration: none;
+}
+
+.header__icons {
+>>>>>>> 767d1b8d50740df5b1d89b4bbe205a5c62edc6cb
 display: flex;
-align-items: center;
 gap: 25px;
 }
 
