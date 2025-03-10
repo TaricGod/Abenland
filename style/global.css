@@ -22,7 +22,9 @@ blockquote {
 }
 
 a {
-  color: #717A86;
+  color: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 img {

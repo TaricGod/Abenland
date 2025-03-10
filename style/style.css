@@ -2,7 +2,6 @@
 display: flex;
 justify-content: center;
 border-bottom: 1px solid #717A86;
-font-weight: 600;
 color: #717A86;
 gap: 85px;
 padding: 25px 315px;
@@ -12,33 +11,105 @@ padding: 25px 315px;
   display: flex;
   gap: 85px;
   list-style-type: none;
+
 }
 
-<<<<<<< HEAD
-.header__menu-link{
+.header__menu-item {
+  align-items: center;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 16px;
+}
+
+
+.header__menu-link {
   text-decoration: none;
-  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-logo {
+  display: flex;
 }
 
 .header-icons {
-=======
-.header__menu-item{
-  align-content: center;
-
-}
-
-.header__menu-link{
-  text-decoration: none;
-}
-
-.header__icons {
->>>>>>> 767d1b8d50740df5b1d89b4bbe205a5c62edc6cb
 display: flex;
 gap: 25px;
+line-height: 1;
 }
 
-.header-icons__icon {
-  text-decoration: none;
+.header-icons__item {
+
 }
 
+/*about-information*/
+.main {
+  margin-left: 315px;
+  margin-right: 315px;
+}
+
+.about-information_margin{
+margin-top: 30px;
+}
+
+.about-information {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.about-information__main-block {
+  padding: 60px 30px;
+  background-image: url('../images/Rectangle_94.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 4;
+}
+
+.about-information__title {
+  max-width: 431px;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+  color: #717A86;
+}
+
+.about-information__text {
+font-weight: 400;
+font-size: 24px;
+line-height: 1.16;
+color: #717A86;
+}
+
+
+.about-information__block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  width: 300px;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-row-end: 2;
+  grid-column-end: 5;
+}
+
+.about-information__block:last-child {
+  grid-row-start: 2;
+  grid-column-start: 4;
+  grid-row-end: 3;
+  grid-column-end: 5;
+}
+
+.about-information__block-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #717A86;
+}
 /*about-information*/
